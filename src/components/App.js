@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import store from '../store';
-import Posts from './Posts';
-import Postform from './Postform';
 import './App.css';
+import Leaflet from './LeafletMap';
+
 
 export default class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Postform />
-        <hr />
-        <Posts />
+        <div className='container'>
+          <Leaflet/>
+        </div>
       </Provider>
     )
   }

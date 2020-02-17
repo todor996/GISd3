@@ -2,3 +2,21 @@ body{
   font-size: 16px;
   color: #333;
 }
+
+.leaflet-container {
+  height: 800px;
+  float: left;
+  width:100%;
+}
+
+.container {
+  flex: 1;
+  flex-direction: row;
+}
+
+.radios-container {
+  width:20%;
+  flex: 1;
+  float: left;
+  flex-direction: column;
+}
