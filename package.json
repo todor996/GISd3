@@ -14,7 +14,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "immutable": "^4.0.0-rc.12",
     "leaflet": "^1.6.0",
